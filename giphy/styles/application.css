@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    margin-right: 20px;
+
+}
+
+
+.search {
+    height: 250px;
+    background-color: grey;
+    flex-grow: 1;
+}
+
+.tags {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+}
+
+.responses {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.responses li {
+    margin-bottom: 20px;
+    height: 160px;
+    width: 200px;
+    background-color: gray;
+}
+
+.large-image {
+    margin-right: 20px;
+}
+
+.main {
+    display: flex;
+}
